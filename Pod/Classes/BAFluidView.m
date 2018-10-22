@@ -21,7 +21,6 @@
 //SOFTWARE.
 
 #import "BAFluidView.h"
-#import "UIColor+ColorWithHex.h"
 #import "Constants.h"
 #import <CoreMotion/CoreMotion.h>
 
@@ -238,8 +237,8 @@ NSString * const kBAFluidViewCMMotionUpdate = @"BAFluidViewCMMotionUpdate";
     // create the wave layer and make it blue
     self.clipsToBounds = YES;
     self.lineLayer = [CAShapeLayer layer];
-    self.lineLayer.fillColor = [UIColor colorWithHex:0x6BB9F0].CGColor;
-    self.lineLayer.strokeColor = [UIColor colorWithHex:0x6BB9F0].CGColor;
+    self.lineLayer.fillColor = [UIColor colorWithRed:107/255.0 green:285/255.0 blue:240/255.0 alpha:1].CGColor;
+    self.lineLayer.strokeColor = [UIColor colorWithRed:107/255.0 green:285/255.0 blue:240/255.0 alpha:1].CGColor;
     
     //default wave properties
     self.fillAutoReverse = YES;

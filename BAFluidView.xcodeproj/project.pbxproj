@@ -10,8 +10,6 @@
 		659E9E001B58E7E70029FE32 /* BAFluidView.h in Headers */ = {isa = PBXBuildFile; fileRef = 659E9DFF1B58E7E70029FE32 /* BAFluidView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		659E9E421B58E8ED0029FE32 /* BAFluidView.h in Headers */ = {isa = PBXBuildFile; fileRef = 659E9E3E1B58E8ED0029FE32 /* BAFluidView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		659E9E431B58E8ED0029FE32 /* BAFluidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E9E3F1B58E8ED0029FE32 /* BAFluidView.m */; };
-		659E9E441B58E8ED0029FE32 /* UIColor+ColorWithHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 659E9E401B58E8ED0029FE32 /* UIColor+ColorWithHex.h */; };
-		659E9E451B58E8ED0029FE32 /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E9E411B58E8ED0029FE32 /* UIColor+ColorWithHex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +18,6 @@
 		659E9DFF1B58E7E70029FE32 /* BAFluidView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAFluidView.h; sourceTree = "<group>"; };
 		659E9E3E1B58E8ED0029FE32 /* BAFluidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BAFluidView.h; path = Pod/Classes/BAFluidView.h; sourceTree = SOURCE_ROOT; };
 		659E9E3F1B58E8ED0029FE32 /* BAFluidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BAFluidView.m; path = Pod/Classes/BAFluidView.m; sourceTree = SOURCE_ROOT; };
-		659E9E401B58E8ED0029FE32 /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorWithHex.h"; path = "Pod/Classes/UIColor+ColorWithHex.h"; sourceTree = SOURCE_ROOT; };
-		659E9E411B58E8ED0029FE32 /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ColorWithHex.m"; path = "Pod/Classes/UIColor+ColorWithHex.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +70,6 @@
 			children = (
 				659E9E3E1B58E8ED0029FE32 /* BAFluidView.h */,
 				659E9E3F1B58E8ED0029FE32 /* BAFluidView.m */,
-				659E9E401B58E8ED0029FE32 /* UIColor+ColorWithHex.h */,
-				659E9E411B58E8ED0029FE32 /* UIColor+ColorWithHex.m */,
 			);
 			name = BAFluidView;
 			path = ../../../code/BAFluidView/Example/BAFluidView;
@@ -90,7 +84,6 @@
 			files = (
 				659E9E001B58E7E70029FE32 /* BAFluidView.h in Headers */,
 				659E9E421B58E8ED0029FE32 /* BAFluidView.h in Headers */,
-				659E9E441B58E8ED0029FE32 /* UIColor+ColorWithHex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +156,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				659E9E431B58E8ED0029FE32 /* BAFluidView.m in Sources */,
-				659E9E451B58E8ED0029FE32 /* UIColor+ColorWithHex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
