@@ -411,7 +411,7 @@ NSString * const kBAFluidViewCMMotionUpdate = @"BAFluidViewCMMotionUpdate";
     frame.origin.y = CGRectGetHeight(self.rootView.frame)*((1-startElevation.floatValue));
     self.lineLayer.frame = frame;
     self.primativeStartElevation = startElevation.doubleValue;
-    
+    self.fillLevel = startElevation;
 }
 
 - (void)reInitializeLayer {
